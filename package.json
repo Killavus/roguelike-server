@@ -1,0 +1,25 @@
+{
+  "name": "roguelike-server",
+  "version": "1.0.0",
+  "description": "A small roguelike game with state synced using the Node.js server. (server package)",
+  "main": "server.js",
+  "scripts": {
+    "test": "tape test/**/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Killavus/roguelike-server.git"
+  },
+  "keywords": [
+    "server",
+    "game",
+    "nodejs",
+    "web"
+  ],
+  "author": "Marcin Grzywaczewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Killavus/roguelike-server/issues"
+  },
+  "homepage": "https://github.com/Killavus/roguelike-server#readme"
+}
