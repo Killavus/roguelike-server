@@ -4,7 +4,7 @@
   "description": "A small roguelike game with state synced using the Node.js server. (server package)",
   "main": "server.js",
   "scripts": {
-    "test": "tape test/**/*.js | tap-spec",
+    "test": "tape -r babel-register test/**/*.js | tap-spec",
     "dev": "babel src --watch --out-dir dist -s"
   },
   "repository": {
@@ -31,6 +31,9 @@
   "devDependencies": {
     "babel-cli": "6.11.4",
     "babel-core": "6.13.2",
-    "babel-preset-es2015": "6.13.2"
+    "babel-preset-es2015": "6.13.2",
+    "babel-register": "6.11.6",
+    "tap-spec": "4.1.1",
+    "tape": "4.6.0"
   }
 }
